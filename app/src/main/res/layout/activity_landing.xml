@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#E3F2FD">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, User!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1565C0" />
+
+    <TextView
+        android:id="@+id/textMood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your mood: -"
+        android:layout_marginTop="16dp"
+        android:textColor="#0D47A1" />
+
+    <Button
+        android:id="@+id/buttonHappy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😊 Happy"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#4FC3F7" />
+
+    <Button
+        android:id="@+id/buttonNeutral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😐 Neutral"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#4FC3F7" />
+
+    <Button
+        android:id="@+id/buttonSad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😢 Sad"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#4FC3F7" />
+</LinearLayout>
